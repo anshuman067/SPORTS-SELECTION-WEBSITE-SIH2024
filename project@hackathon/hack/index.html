@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search cards..." onkeyup="filterCards()">
+        <button id="search-button" onclick="filterCards()">Search</button>
+    </div>
+
+    <div class="card-container" id="card-container">
+        <div class="card">
+            <img src="2.jpeg" alt="Sports Academy">
+            <h2>Football Academy</h2>
+            <p>This academy specializes in training football players.</p>
+            <div class="price-buttons">
+                <button class="price-button free" onclick="window.location.href='free.html';">Free</button>
+                <button class="price-button paid" onclick="window.location.href='paid.html';">paid</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3.jpeg" alt="Sports Academy">
+            <h2>Basketball Academy</h2>
+            <p>This academy is focused on developing basketball skills.</p>
+            <div class="price-buttons">
+                <button class="price-button free" onclick="window.location.href='free.html';">Free</button>
+                <button class="price-button paid" onclick="window.location.href='paid.html';">paid</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1.jpeg" alt="Sports Academy">
+            <h2>Tennis Academy</h2>
+            <p>This academy offers top-notch tennis coaching.</p>
+            <div class="price-buttons">
+                <button class="price-button free" onclick="window.location.href='free.html';">Free</button>
+                <button class="price-button paid" onclick="window.location.href='paid.html';">paid</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1.jpeg" alt="Sports Academy">
+            <h2>Swimming Academy</h2>
+            <p>Learn swimming from experienced coaches.</p>
+            <div class="price-buttons">
+                <button class="price-button free" onclick="window.location.href='free.html';">Free</button>
+                <button class="price-button paid" onclick="window.location.href='paid.html';">paid</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1.jpeg" alt="Sports Academy">
+            <h2>hockey Academy</h2>
+            <p>This academy is known for producing hockey stars.</p>
+            <div class="price-buttons">
+                <button class="price-button free" onclick="window.location.href='free.html';">Free</button>
+                <button class="price-button paid" onclick="window.location.href='paid.html';">paid</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1.jpeg" alt="Sports Academy">
+            <h2>Badminton Academy</h2>
+            <p>Excel in badminton with our specialized training programs.</p>
+            <div class="price-buttons">
+                <button class="price-button free" onclick="window.location.href='free.html';">Free</button>
+                <button class="price-button paid" onclick="window.location.href='paid.html';">paid</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
