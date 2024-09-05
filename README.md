@@ -17,3 +17,4 @@ Community Engagement: Collaborates with local sports clubs and events, fostering
 
 Objective
 This project aims to create an accessible platform offering government-verified sports facilities to students aged 15+. By integrating with educational institutions and employing advanced data management, it promotes sports participation, improves athletic skills, and supports the development of future sports professionals within the community.
+(IT IS ONLY DEMO PROJECT FOR STANADARDIZE DEVELOPMENT OF SPORT WEBSITE WHICH CAN BENIFICIAL FOR ATHELETES)
